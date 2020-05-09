@@ -1,0 +1,812 @@
+/* Parámetros globales de Maquetación y Estilo */
+
+h1, h2, h3, h5, p, a, span {
+    font-family: 'Roboto', sans-serif;
+}
+
+h4, h6 {
+    font-family: 'Allan', cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* Estilo propio del sitio web */
+aside#menu-cortina {
+    width: 100%;                /* 100% / <= 300px */
+    height: 100%;
+    display: block;
+    margin: 0;
+    float: none;
+    position: fixed;
+    
+    top: 0;
+    right: -100%;                    /* left / right */
+    z-index: 99991;
+    
+    background: rgba(65, 9, 9, 0.79);
+}
+
+aside#menu-cortina a#abrir { }
+aside#menu-cortina a#abrir i { }
+aside#menu-cortina a#abrir:hover { }
+aside#menu-cortina a#abrir:hover i { }
+
+aside#menu-cortina a#cerrar { }
+aside#menu-cortina a#cerrar i { }
+aside#menu-cortina a#cerrar:hover { }
+aside#menu-cortina a#cerrar:hover i { }
+
+aside#menu-cortina nav#menu-principal-movil { }
+aside#menu-cortina nav#menu-principal-movil a { }
+aside#menu-cortina nav#menu-principal-movil a:hover { }
+aside#menu-cortina nav#menu-principal-movil span { }
+
+
+
+header {
+    width: 100%;            /*Anchura*/
+    height: 155px;          /*Altura*/
+    display: block;         /*Despliegue*/
+    margin: 0;              /*Margen*/
+    float: none;            /*Lado hacia el que flota*/
+    position: fixed;        /* fixed / absolute / relative / sticky(JS) */
+    
+    top: 0;                 /*Solo sirven para posiciones fijas y absolutas*/
+    left: 0;
+    z-index: 99990;    
+}
+
+header article#redes {
+    width: 100%;
+    height: 20px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+	
+	background: #FDF6DA;
+}
+
+header article#redes nav#menu-redes {
+    width: 115px;
+    height: 35px;
+    display: block;
+    margin: 2px 0;
+    right: 230px;
+    float: right;
+    position: relative;
+}
+header article#redes nav#menu-redes a { 
+	font-size: 0.85em;
+    padding: 0 3px;
+    color: #CD4B45;
+		
+	transition: all 0.2s ease-in;
+}
+header article#redes nav#menu-redes a i { 
+    color: #CD4B45;
+}
+header article#redes nav#menu-redes a:hover { 
+	opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+
+
+header article#redes nav#menu-ubicacion {
+    width: 115px;
+    height: 35px;
+    display: block;
+    margin: 2px 0;
+    float: right;
+    position: relative;
+}
+header article#redes nav#menu-ubicacion a { 
+	font-size: 0.85em;
+    padding: 0 3px;
+    color: #CD4B45;
+		
+	transition: all 0.2s ease-in;
+}
+header article#redes nav#menu-ubicacion a i { 
+	font-size: 0.85em;
+    color: #CD4B45;
+		
+	transition: all 0.2s ease-in;
+}
+header article#redes nav#menu-ubicacion a span{
+	 color: #CD4B45;
+	
+	 transition: all 0.2s ease-in;
+}
+header article#redes nav#menu-ubicacion a:hover { 
+	opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+
+
+header article#redes nav#menu-idioma {
+   	width: 115px;
+    height: 35px;
+    display: block;
+    margin: 2px 0;
+    right: -230px;
+    float: right;
+    position: relative;
+}
+header article#redes nav#menu-idioma a {  
+	font-size: 0.85em;
+    padding: 0 3px;
+    color: #CD4B45;
+		
+	transition: all 0.2s ease-in;
+}
+header article#redes nav#menu-idioma span {  
+	color: #CD4B45;
+}
+header article#redes nav#menu-idioma a:hover {  
+	opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+header article#redes nav#menu-idioma span:hover {  
+	opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+
+header article#navegacion {
+    width: 100%;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+	
+	background: #CD5954;
+}
+
+header article#navegacion a#logo {
+    width: 305px;
+    height: 70px;
+    display: block;
+    margin: 15px 0;
+    float: left;
+    position: relative;
+    
+    transition: all 0.2s ease-in;
+}
+header article#navegacion a#logo:hover {
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+header article#navegacion a#logo img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+header article#navegacion nav#menu-principal {
+    width: 630px;
+    height: 20px;
+    display: inline-block;
+    margin: 40px auto;
+    left: 375px;
+    float: none;
+    position: relative;
+}
+header article#navegacion nav#menu-principal a {  
+	font-size: 1em;
+    padding: 0 0 0 100px;
+    color: #FDF6DA;
+		
+	transition: all 0.2s ease-in;
+}
+header article#navegacion nav#menu-principal a:hover {  
+	opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+
+
+
+main {
+    width: 100%;
+    height: auto;         /* auto */
+    display: block;
+    margin: 0 auto;
+	top: 99px;
+    float: none;
+    position: relative;
+}
+
+/*Index*/
+
+main section#fila-hola {
+	width: 100%;
+    height: 680px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+	
+	background: #CD5954;
+}
+main section#fila-hola article {
+	width: 70%;
+	height: 680px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+	
+}
+main section#fila-hola article figure#figura-hola {
+	width: 60%;
+    height: 680px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+}
+
+main section#fila-hola article figure#figura-hola h4 {
+    display: block;
+    margin: 120px auto 0;
+    float: left;
+    position: relative;
+	
+    font-size: 5em;
+    font-weight: 300;
+    color: #FDF6DA;
+}
+main section#fila-hola article figure#figura-hola img {
+	display: block;
+    margin: -105px auto 0 160px;
+    float: left;
+    position: relative;
+	
+    border-radius: 50%;
+}
+main section#fila-hola article figure#figura-soy {
+	width: 40%;
+    height: 680px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+}
+main section#fila-hola article figure#figura-soy div#caja-soy {
+	width: 100%;
+    height: 110px;
+    display: block;
+    margin: 400px 0 0 20px;
+    float: left;
+    position: relative;
+}
+main section#fila-hola article figure#figura-soy div#caja-soy p {
+	text-align: right;
+    font-size: 1.25em;
+    color: #fdf6da;
+}
+main section#fila-hola article figure#figura-soy div#caja-soy a {
+	float: right;
+	font-size: 0.85em;
+	font-weight: 100;
+    color: #fdf6da;
+	
+	transition: all 0.2s ease-in;
+}
+main section#fila-hola article figure#figura-soy div#caja-soy a:hover {
+	opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+
+main section#trabajos {
+	width: 100%;
+    height: 680px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+	
+	background: #fdf6da;
+}
+main section#trabajos h2 {
+	width: 622px;
+    height: 184px;
+    display: block;
+	margin: 0;
+	float: none;
+    position: relative;
+    
+	top: 245px;
+    left: -170px;
+	color: #CD4B45;
+    font-size: 10em;
+	font-weight: 400;
+	transform: rotate(-90deg);
+}
+main section#trabajos article {
+	width: 80%;
+    height: 680px;
+    display: block;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+}
+main section#trabajos article figure#img-arriba {
+	width: 50%;
+    height: 300px;
+    display: block;
+    margin: -120px 0 0 0;
+    float: left;
+    position: relative;
+}
+main section#trabajos article figure#img-arriba a {
+	width: 420px;
+    height: 420px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+	
+    border-radius: 50%;
+    background: url("../img/cocos-index.jpg")no-repeat center center;
+    transition: all 0.2s ease-in;
+}
+main section#trabajos article figure#img-arriba a img {
+	width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    transform: scale(0.5);
+}
+main section#trabajos article figure#img-arriba a span {
+	width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto -15px;
+    float: none;
+    position: relative;
+	
+    color: #CD4B45;
+    font-size: 1.5em;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+main section#trabajos article figure#img-arriba a:hover {
+	opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+
+main section#trabajos article figure#img-abajo {
+	width: 50%;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+}
+main section#trabajos article figure#img-abajo a {
+	width: 420px;
+    height: 420px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+	
+    border-radius: 50%;
+	transition: all 0.2s ease-in;
+	background: url("../img/wg-index.jpg")no-repeat center center;
+}
+main section#trabajos article figure#img-abajo a span {
+	width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto -40px;
+    float: none;
+    position: relative;
+	
+    color: #CD4B45;
+    font-size: 1.5em;
+    font-weight: 500;
+    text-align: center;
+	bottom: 35px;
+    padding: 0 0 20px 0;
+}
+main section#trabajos article figure#img-abajo a img {
+	width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    transform: scale(0.5);
+}
+main section#trabajos article figure#img-abajo a:hover {
+	opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+
+main section#habilidades {
+	width: 100%;
+    height: 680px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+	
+	background: #CD5954;
+}
+main section#habilidades h2 {
+	width: 622px;
+    height: 184px;
+    display: block;
+	margin: 0;
+	float: none;
+    position: relative;
+    
+	top: 245px;
+    left: -355px;
+	color: #FDF6DA;
+    font-size: 10em;
+	font-weight: 400;
+	transform: rotate(-90deg);
+}
+main section#habilidades article {
+	width: 80%;
+    height: 680px;
+    display: block;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+}
+main section#habilidades article figure {
+	width: 100%;
+    height: 340px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+	
+	bottom: 170px;
+}
+main section#habilidades article figure div.titulo-habilidades {
+	width: 120px;
+    height: 120px;
+    display: block;
+    margin: 0 0 0 100px;
+    top: 65px;
+    float: left;
+    position: relative;
+}
+main section#habilidades article figure div.titulo-habilidades img {
+	width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+}
+main section#habilidades article figure div.titulo-habilidades h5 {
+	width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px auto 0;
+    float: left;
+    position: relative;
+	
+    color: #FDF6DA;
+    font-size: 0.95em;
+    font-weight: 500;
+	text-align: center;
+}
+
+main section#habilidades article figure div.texto-habilidades {
+	width: 60%;
+    height: 90px;
+    display: block;
+    margin: 120px 0 0 55px;
+    float: left;
+    position: relative;
+}
+main section#habilidades article figure div.texto-habilidades div.barra-contenedor {
+	width: 100%;
+    height: 20px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+	
+    border-radius: 17px;
+    background: #FDF6DA;
+}
+main section#habilidades article figure div.texto-habilidades div.barra-contenedor div#barra-marca.barra-contenido {
+	width: 75%;
+    height: 12px;
+    display: block;
+    float: none;
+    position: relative;
+	
+	top: 4px;
+	left: 6px;
+	border-radius: 25px;
+	background: #CD4B45;
+}
+main section#habilidades article figure div.texto-habilidades p {
+	margin: 40px 0 0 0; 
+	color: #FDF6DA;
+    text-align: justify;
+    font-weight: 300;
+} 
+
+main section#habilidades article figure div.texto-habilidades div.barra-contenedor div#barra-editorial.barra-contenido {
+	width: 85%;
+    height: 12px;
+    display: block;
+    float: none;
+    position: relative;
+	
+	top: 4px;
+	left: 6px;
+	border-radius: 25px;
+	background: #CD4B45;
+}
+
+main section#contacto {
+	width: 100%;
+    height: 640px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+	
+	background: #fdf6da;
+}
+main section#contacto article {
+	width: 100%;
+    height: 640px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#contacto article figure {
+	width: 50%;
+    height: 345px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+}
+main section#contacto article figure h2 {
+	width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+	position: relative;
+	
+	bottom: 125px;
+	left: 30px;
+	color: #CD4B45;
+	font-size: 3em;
+	font-weight: 500;
+}
+main section#contacto article figure p {
+	width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+	position: relative;
+	
+	bottom: 115px;
+	left: 30px;
+	color: #CD4B45;
+	font-weight: 300;
+	text-align: justify;
+}
+
+main section#contacto article figure img {
+	width: 50%;
+    height: auto;
+    display: block;
+    margin: -85px 0 0 100px;
+    float: none;
+	position: relative;
+	
+	border-radius: 50%;
+}
+
+/*Diseño Marca*/
+
+main section#pagina-marca {}
+main section#pagina-marca h2 {}
+main section#pagina-marca nav {}
+main section#pagina-marca nav a {}
+main section#pagina-marca nav a img {}
+main section#pagina-marca nav a i {}
+main section#pagina-marca nav h5 {}
+main section#pagina-marca nav p {}
+main section#pagina-marca div {}
+main section#pagina-marca div p {}
+
+/*Diseño Editorial*/
+
+main section#pagina-editorial {}
+main section#pagina-editorial h2 {}
+main section#pagina-editorial nav {}
+main section#pagina-editorial nav a {}
+main section#pagina-editorial nav a img {}
+main section#pagina-editorial nav a i {}
+main section#pagina-editorial nav h5 {}
+main section#pagina-editorial nav p {}
+main section#pagina-editorial div {}
+main section#pagina-editorial div p {}
+
+/*Sobre mi*/
+
+main section#pagina-sobre-mi {}
+main section#pagina-sobre-mi article {}
+main section#pagina-sobre-mi article figure {}
+main section#pagina-sobre-mi article figure img {}
+main section#pagina-sobre-mi article figure p {}
+main section#pagina-sobre-mi h2 {}
+
+
+
+footer {
+    width: 100%;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    
+    /* background: url('../img/alberto-angulo-diseno-web-fondo-01.jpg') no-repeat top center fixed #333; */
+    background: #CD5954;
+}
+
+footer a#logo-footer { 
+	width: 305px;
+    height: 35px;
+    display: block;
+    margin: 50px 200px;
+    float: left;
+    position: relative;
+    
+    transition: all 0.2s ease-in;
+}
+footer a#logo-footer:hover {
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+footer a#logo-footer img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+footer div.linea-vertical {
+	width: 1px;
+	height: 150px;
+	position: absolute;
+	left: 720px;
+	top: 25px;
+
+	border-left: 2px solid #FDF6DA;
+}
+
+footer nav#menu-redes-footer {
+	width: 305px;
+    height: 35px;
+    display: block;
+    margin: 50px 100px;
+    float: right;
+    position: relative;
+    
+}
+footer nav#menu-redes-footer a {
+	width: 305px;
+    height: 35px;
+    display: block;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+    
+	bottom: 10px;
+    transition: all 0.2s ease-in;
+}
+footer nav#menu-redes-footer a i {
+	color: #FDF6DA;
+	padding: 0 15px;
+}
+footer nav#menu-redes-footer a span {
+	color: #FDF6DA;
+	font-size: 0.90em;
+}
+footer nav#menu-redes-footer a:hover {
+	opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Zona Responsive */
+
+/*
+Escritorio y TV         >= 1200px
+Tablets                 <= 1199px --- >= 500px
+Móviles                 <= 499px --- >= 340px
+*/
+
+@media only screen and (max-width: 1199px){    /*Tablets*/
+    aside#menu-cortina {
+        right: 0;
+    }
+}
+
+@media only screen and (max-width: 1099px){
+    
+}
+
+@media only screen and (max-width: 999px){
+    
+}
+
+@media only screen and (max-width: 899px){
+    
+}
+
+@media only screen and (max-width: 799px){
+    
+}
+
+@media only screen and (max-width: 699px){
+    
+}
+
+@media only screen and (max-width: 599px){
+    
+}
+
+@media only screen and (max-width: 499px){     /*Móviles*/
+    
+}
+
+@media only screen and (max-width: 449px){
+    
+}
+
+@media only screen and (max-width: 399px){
+    
+}
+
+@media only screen and (max-width: 349px){
+    
+}
